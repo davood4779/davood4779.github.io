@@ -1,0 +1,34 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.startup{
+  background-position: center;
+  background-image: url("header.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+h1{
+  color: rgba(255, 255, 255, 0.8);
+}
+
+hr{
+  max-width: 50px;
+  border:2px solid orange;
+  margin-top: 300px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.btn-primary:hover{
+  background-color: orange;
+  border-width: 5px;
+  cursor: pointer;
+  border-color: orange;
+}
